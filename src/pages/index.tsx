@@ -9,7 +9,7 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
-import TelegramHeader from '@/components/TelegramHeader';
+import { TelegramHeader } from '@/components/TelegramHeader';
 import TokenCard, { TokenData } from '@/components/TokenCard';
 import BubbleMap from '@/components/BubbleMap';
 import TokenAlert, { TokenAlertData } from '@/components/TokenAlert';

@@ -1,0 +1,1 @@
+import componentTagger from "./componentTagger";
