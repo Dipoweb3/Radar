@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Toaster } from '@/components/ui/toaster';
-import Index from '@/pages/Index';
+import Index from '@/pages/index';
 import TokenAnalysis from '@/pages/TokenAnalysis';
 import NotFound from '@/pages/NotFound';
 import './App.css';
