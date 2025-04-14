@@ -1,5 +1,6 @@
 import * as React from "react";
-import { ToastActionElement, ToastProps } from "@/components/ui/toast";
+import { ToastProps } from "@/lib/types"; // ✅ use your own ToastProps interface
+// OR keep importing from "@/components/ui/toast" if you’re sure that’s what you want
 
 const ToastContext = React.createContext<{
   toasts: ToastProps[];
@@ -14,3 +15,5 @@ export function useToast() {
   }
   return context;
 }
+
+export { ToastContext };
